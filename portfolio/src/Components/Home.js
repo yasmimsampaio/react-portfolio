@@ -7,7 +7,6 @@ class Home extends Component {
     render(){
         return(
         <div>
-            <Navbar/>
             <section className="box">
                 <h1>
                 About Me

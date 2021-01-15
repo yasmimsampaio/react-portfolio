@@ -3,10 +3,12 @@ import Home from './Components/Home';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import { HashRouter, Route } from 'react-router-dom';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <HashRouter basename="/"> 
+    <HashRouter basename="/">
+      <Navbar/> 
       <Route exact path="/" component={Home}/>
       <Route exact path="/Home" component={Home}/>
       <Route exact path="/Portfolio" component={Portfolio}/>
