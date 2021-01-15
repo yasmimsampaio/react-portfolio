@@ -16,22 +16,27 @@ class Portfolio extends Component {
                                 imageSrc="./Images/PortfolioPictures/Project1.png"
                                 alttag="Homepage of Artist's Top Songs"
                             />
-                            <a href="https://mitchreid14.github.io/project1group5/">
-                            <img id="myimage" src="./Images/PortfolioPictures/Project1.png" className="img-thumbnail"></img>
-                            </a>
-                            <a href="https://notetaker-ys.herokuapp.com/">
-                            <img id="myimage" src="./Images/PortfolioPictures/NoteTaker.png" className="img-thumbnail"></img>
-                            </a>
-                            <a href="https://burger-ys.herokuapp.com/">
-                            <img id="myimage" src="./Images/PortfolioPictures/Burger.png" className="img-thumbnail"></img>
-                            </a>
+                            <Project
+                                atag="https://notetaker-ys.herokuapp.com/"
+                                imageSrc="./Images/PortfolioPictures/NoteTaker.png"
+                                alttag="Homepage for Note Taker"
+                            />
+                            <Project
+                                atag="https://burger-ys.herokuapp.com/"
+                                imageSrc="./Images/PortfolioPictures/Burger.png"
+                                alttag="Homepage for Burger App"
+                            />
                             <br/>
-                            <a href="https://social-underground-bc.herokuapp.com/signup.html">
-                            <img id="myimage" src="./Images/PortfolioPictures/Project2Signup.png" className="img-thumbnail"></img>
-                            </a>
-                            <a href="https://social-underground-bc.herokuapp.com/">
-                            <img id="myimage" src="./Images/PortfolioPictures/Project2Login.png" className="img-thumbnail"></img>
-                            </a>
+                            <Project
+                                atag="https://social-underground-bc.herokuapp.com/signup.html"
+                                imageSrc="./Images/PortfolioPictures/Project2Signup.png"
+                                alttag="Homepage for the Sign Up page"
+                            />
+                            <Project
+                                atag="https://social-underground-bc.herokuapp.com/"
+                                imageSrc="./Images/PortfolioPictures/Project2Login.png"
+                                alttag="Homepage for the Login page"
+                            />
                         </p>
                 </section>
                 {/* <div style={{backgroundImage: url('beach-2179624.jpg')}}></div>   */}
