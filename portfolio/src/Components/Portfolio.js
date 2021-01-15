@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Project from "./Project";
 
 class Portfolio extends Component {
     render(){
@@ -10,6 +11,11 @@ class Portfolio extends Component {
                     </h1>
                     <hr/>
                         <p>
+                            <Project
+                                atag="https://mitchreid14.github.io/project1group5/"
+                                imageSrc="./Images/PortfolioPictures/Project1.png"
+                                alttag="Homepage of Artist's Top Songs"
+                            />
                             <a href="https://mitchreid14.github.io/project1group5/">
                             <img id="myimage" src="./Images/PortfolioPictures/Project1.png" className="img-thumbnail"></img>
                             </a>
