@@ -14,7 +14,9 @@ class Home extends Component {
             <div className="collapse navbar-collapse navlinks-right" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">About</a>
+                  {/* <a className="nav-link" href="index.html">About</a> */}
+                  <Link className="nav-link"
+                    to="/Home">About</Link>
                 </li>
                 <li className="nav-item">
                   {/* <a className="nav-link" href="portfolio.html">Portfolio</a> */}

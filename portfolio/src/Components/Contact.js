@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 class Contact extends Component {
     render(){
@@ -12,13 +13,20 @@ class Contact extends Component {
                     <div className="collapse navbar-collapse navlinks-right" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="index.html">About</a>
+                                {/* <a className="nav-link" href="index.html">About</a> */}
+                                <Link className="nav-link"
+                                    to="/Home">About</Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="portfolio.html">Portfolio</a>
+                            {/* <a className="nav-link" href="portfolio.html">Portfolio</a> */}
+                            <Link className="nav-link"
+                                to="/Portfolio">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="contact.html">Contact</a>  
+                                {/* <a className="nav-link" href="contact.html">Contact</a> */}
+                                <Link className="nav-link"
+                                    to="/Contact">Contact</Link>
+  
                             </li>
                         </ul>
                     </div>
