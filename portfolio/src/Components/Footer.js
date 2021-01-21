@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import "./Footer.css"
 
 class Footer extends Component {
     render(){
         return(
-            <p>© Yasmim Sampaio</p>
+            <p className="footer">© Yasmim Sampaio</p>
         )
     }
 }
