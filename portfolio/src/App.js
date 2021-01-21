@@ -14,6 +14,7 @@ function App() {
       <Route exact path="/Home" component={Home}/>
       <Route exact path="/Portfolio" component={Portfolio}/>
       <Route exact path="/Contact" component={Contact}/>
+      <Route exact path="/contact.html" component={Contact}/>
       <Footer/>
     </HashRouter>
   );
