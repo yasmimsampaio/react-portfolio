@@ -1,6 +1,10 @@
 .footer{
-    color: green;
     bottom: 0%;
     position: fixed;
     left: 30px
+}
+
+.box{
+position: fixed;
+left: 30px
 }
